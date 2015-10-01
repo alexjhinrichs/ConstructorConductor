@@ -42,7 +42,7 @@ console.log('Alex\'s information is ', users[3]);
 //Now loop through your users Array and console.log every users name. 
 
   //code here
+console.log("All my users names are ");
 for(var i = 0; i < users.length; i++) {
-  console.log('All my users names are ', users);
-  break;
-};
+  console.log(users[i].name);
+}
